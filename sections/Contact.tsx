@@ -11,7 +11,7 @@ const W = "max-w-7xl mx-auto px-6 md:px-12 lg:px-20";
 // 1. Go to https://web3forms.com/
 // 2. Enter: amannanda740@gmail.com
 // 3. Copy the key and replace below
-const WEB3FORMS_KEY = "YOUR_WEB3FORMS_KEY_HERE";
+const WEB3FORMS_KEY = "b0e17408-4e69-4aa2-b078-15f67fa3ad70";
 // ────────────────────────────────────────────────────────────────
 
 export function Contact() {
