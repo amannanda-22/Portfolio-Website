@@ -123,19 +123,6 @@ export function Contact() {
               </div>
             </div>
 
-            {WEB3FORMS_KEY === "YOUR_WEB3FORMS_KEY_HERE" && (
-              <div style={{ padding:"12px 14px", borderRadius:11,
-                border:"1px solid rgba(251,191,36,0.25)", background:"rgba(251,191,36,0.04)",
-                display:"flex", alignItems:"flex-start", gap:9 }}>
-                <AlertCircle size={13} style={{color:"#fbbf24",flexShrink:0,marginTop:1}}/>
-                <div style={{ fontSize:11, color:"#fbbf24", fontFamily:"var(--fM)", lineHeight:1.65 }}>
-                  To get emails directly:<br/>
-                  1. Visit web3forms.com<br/>
-                  2. Enter amannanda740@gmail.com<br/>
-                  3. Paste key in Contact.tsx line 14
-                </div>
-              </div>
-            )}
           </motion.div>
 
           {/* Right — form */}
