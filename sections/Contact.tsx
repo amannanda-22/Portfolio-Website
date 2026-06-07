@@ -23,17 +23,6 @@ export function Contact() {
     e.preventDefault();
     setStatus("loading"); setErrMsg("");
 
-    if (WEB3FORMS_KEY === "YOUR_WEB3FORMS_KEY_HERE") {
-      // Fallback: open mail app
-      await new Promise(r => setTimeout(r, 900));
-      const body = `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`;
-      window.location.href = `mailto:${SITE.email}?subject=${encodeURIComponent(form.subject||"Portfolio Contact")}&body=${encodeURIComponent(body)}`;
-      setStatus("success");
-      setForm({ name:"", email:"", subject:"", message:"" });
-      setTimeout(() => setStatus("idle"), 4000);
-      return;
-    }
-
     try {
       const res  = await fetch("https://api.web3forms.com/submit", {
         method:"POST",
