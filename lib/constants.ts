@@ -7,9 +7,8 @@ export const SITE = {
   phone: "+91 6281947629",
   location: "Visakhapatnam, India",
   bio: "AI undergraduate passionate about building intelligent systems, full-stack applications, and futuristic digital experiences. Skilled in Machine Learning, NLP, Generative AI, Data Analytics, and Quantum Computing.",
-  github: "https://github.com/amannanda22",
+  github: "https://github.com/amannanda-22",
   linkedin: "https://www.linkedin.com/in/nanda-aman",
-  twitter: "https://twitter.com/amannanda",
   resume: "/resume.pdf",
   education: { degree: "B.Sc. Artificial Intelligence", college: "Aditya Degree College, Visakhapatnam", year: "2023–2026", cgpa: "8.21" },
 };
