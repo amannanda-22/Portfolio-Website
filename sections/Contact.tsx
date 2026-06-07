@@ -162,9 +162,7 @@ export function Contact() {
                       : <><Send size={13}/> Send Message</>}
               </motion.button>
               <p style={{ marginTop:7, fontSize:10, color:"var(--tx2)", textAlign:"center", fontFamily:"var(--fM)" }}>
-                {WEB3FORMS_KEY==="YOUR_WEB3FORMS_KEY_HERE"
-                  ? "Opens your email app. Set Web3Forms key for direct delivery."
-                  : "Delivered directly to amannanda740@gmail.com"}
+                Delivered directly to amannanda740@gmail.com
               </p>
             </form>
           </motion.div>
